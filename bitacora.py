@@ -8,4 +8,7 @@ class Bitacora:
     def mostrar(self):
         for linea in self._lineas:
             print(linea)
+
+    def total(self):
+        return len(self._lineas)
             
