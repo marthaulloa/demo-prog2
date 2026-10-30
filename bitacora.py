@@ -10,5 +10,6 @@ class Bitacora:
             print(linea)
 
     def total(self):
-        return len(self._lineas)
+        return len(self._lineas) * 2
+
             
